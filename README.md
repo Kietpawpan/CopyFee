@@ -7,13 +7,14 @@
 
 ## วิธีใช้
 1. Double Click ที่ไฟล์ CopyFee2.1.docm
-2. กด Ctrl + E แล้วกดปุ่ม U บนแป้นพิมพ์ เพื่อเข้าสู่หน้าโปรแกรม
+2. กดปุ่ม Start เพื่อเข้าสู่หน้าโปรแกรม
 3. กรอกข้อมูล ทุกช่อง
 4. กดปุ่ม Done เพื่อยืนยันข้อมูล
 5. กดปุ่ม Print เพื่อออกใบแจ้งชำระค่าธรรมเนียม
 6. กดปุ่ม Reset เพื่อล้างข้อมูล
-7. เปิดไฟล์ใบแจ้งชำระค่าธรรมเนียม (PDF) เพื่อตรวจสอบความถูกต้อง
-8. สั่งพิมพ์ และลงนาม
+7. กดปุ่ม Exit เพื่อปิดโปรแกรม
+8. เปิดไฟล์ใบแจ้งชำระค่าธรรมเนียม (PDF) เพื่อตรวจสอบความถูกต้อง
+9. สั่งพิมพ์ และลงนาม
 
 ## Vesion History
 2.1
@@ -70,6 +71,12 @@ End Sub
 ```
 { REF Page \#,0 \*MERGEFORMAT}
 { REF Place \#,0 \*MERGEFORMAT}
+```
+- Close the program, with the Exit button
+```
+Private Sub CommandButton5_Click()
+   Application.Quit
+End Sub
 ```
 ## Programmer
 Monte Kietpwpan, Ph.D.,
