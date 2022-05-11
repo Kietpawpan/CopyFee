@@ -39,7 +39,16 @@ End Sub
 ```
 - Auto-fill data into the invoice from each cell in the form
 ```
-{ REF Name } { REF Date } { REF Page } { REF Place } { REF Officer } { REF Position } 
+{ REF Name \* CHARFORMAT } 
+{ REF Date \* CHARFORMAT } 
+{ REF Page } 
+{ REF Place } 
+{ REF Officer \* CHARFORMAT } 
+{ REF Position \* CHARFORMAT } 
 ```
-// Read the amount of payment in Thai text
+- Read the amount of payment in Thai text
 { REF Variable \*bahttext }
+- Date of today
+```
+{ TIME \@ "ว ดดดด ปปปป" }
+```
