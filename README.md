@@ -18,7 +18,7 @@ Private Sub CommandButton3_Click()
     MsgBox "Ready to print", , "Done!"
 End Sub
 ```
-- Print the invoice to PDF via the Print button:
+- Print the invoice to a PDF copy, via the Print button:
 ```
 Private Sub CommandButton1_Click()
     Application.PrintOut FileName:="", Range:=wdPrintRangeOfPages, Item:= _
@@ -28,7 +28,7 @@ Private Sub CommandButton1_Click()
         PrintZoomPaperHeight:=0
 End Sub
 ```
-- Reset the form, protected by password: *****
+- Use the Reset button to reset the form, protected by password: *****
 ```
 Private Sub CommandButton2_Click()
     ActiveDocument.Unprotect Password:="*****"
@@ -53,4 +53,9 @@ End Sub
 - Date of today
 ```
 { TIME \@ "ว ดดดด ปปปป" }
+```
+- Show the amount of pages and places of approval with comma separating thousands
+```
+{ REF Page \#,0 \*MERGEFORMAT}
+{ REF Place \#,0 \*MERGEFORMAT}
 ```
