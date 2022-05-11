@@ -12,6 +12,9 @@
 - Better document format: Use \* CHARTFORMAT instead of \* MERGEFORMAT in the { REF Name}, { REF Date }, and { REF Officer } commands.
 
 ## Programming (Algorithm & Coding)
+- Create a form as table in Microsoft Word
+- Use Legacy tools in Developer menu
+- Use VBA script 
 - Transfer the filled text from all cells in the form to the invoice, via the Done button:
 ```
 Private Sub CommandButton3_Click()
