@@ -11,7 +11,7 @@
 - Payment methods included.
 - Better document format: Use \* CHARTFORMAT instead of \* MERGEFORMAT in the { REF Name}, { REF Date }, and { REF Officer } commands.
 
-## Coding
+## Programming (Algorithm & Coding)
 - Transfer the filled text from all cells in the form to the invoice, via the Done button:
 ```
 Private Sub CommandButton3_Click()
@@ -28,10 +28,18 @@ Private Sub CommandButton1_Click()
         PrintZoomPaperHeight:=0
 End Sub
 ```
-// Reset the form
-
-// Auto-fill data into the invoice from each cell in the form
+- Reset the form, protected by password: *****
+```
+Private Sub CommandButton2_Click()
+    ActiveDocument.Unprotect Password:="*****"
+    ActiveDocument.ResetFormFields
+    ActiveDocument.Protect Type:=wdAllowOnlyFormFields, _
+                    Password:="*****"
+End Sub
+```
+- Auto-fill data into the invoice from each cell in the form
+```
 { REF Name } { REF Date } { REF Page } { REF Place } { REF Officer } { REF Position } 
-
+```
 // Read the amount of payment in Thai text
 { REF Variable \*bahttext }
