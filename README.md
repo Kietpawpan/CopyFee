@@ -63,5 +63,4 @@ End Sub
 { REF Place \#,0 \*MERGEFORMAT}
 ```
 ## Programmer
-ดร. มนตรี เกียรติเผ่าพันธ์
-ผู้อำนวยการศูนย์บริการร่วม กระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม
+Monte Kietpwpan, Ph.D.
