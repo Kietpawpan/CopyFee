@@ -12,8 +12,13 @@
 - Better document format: Use \* CHARTFORMAT instead of \* MERGEFORMAT in the { REF Name}, { REF Date }, and { REF Officer } commands.
 
 ## Coding
-- Transfer the filled text from all cells in the form to the invoice.
-- Print the invoice to PDF
+- Transfer the filled text from all cells in the form to the invoice, via the Done button:
+```
+Private Sub CommandButton3_Click()
+    MsgBox "Ready to print", , "Done!"
+End Sub
+```
+- Print the invoice to PDF via the Print button:
 ```
 Private Sub CommandButton1_Click()
     Application.PrintOut FileName:="", Range:=wdPrintRangeOfPages, Item:= _
