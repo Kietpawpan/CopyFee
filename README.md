@@ -9,7 +9,7 @@
 ## Vesion History
 2.1
 - Payment methods included.
-- Better document format: Use \* CHARTFORMAT instead of \* MERGEFORMAT in the { REF Name}, { REF Date }, and { REF Officer } commands.
+- Better document format
 
 ## Programming (Algorithm & Coding)
 - Create a form as table in Microsoft Word
