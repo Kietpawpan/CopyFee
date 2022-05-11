@@ -47,7 +47,9 @@ End Sub
 { REF Position \* CHARFORMAT } 
 ```
 - Read the amount of payment in Thai text
-{ REF Variable \*bahttext }
+```
+(={ e4\*bahttext })
+```
 - Date of today
 ```
 { TIME \@ "ว ดดดด ปปปป" }
