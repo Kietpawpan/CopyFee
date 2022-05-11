@@ -20,6 +20,7 @@
 2.1
 - Payment methods included.
 - Better document format
+- Easier to start and exit the program
 
 ## Programming (Algorithm & Coding)
 - Create a form as table in Microsoft Word
