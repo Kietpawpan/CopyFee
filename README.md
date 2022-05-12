@@ -24,7 +24,7 @@
 - README included
 
 
-## Programming (Algorithm & Coding)
+## Programming
 - Create a form as table in Microsoft Word
 - Use Legacy tools in Developer menu
 - Use VBA script 
