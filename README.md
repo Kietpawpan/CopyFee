@@ -66,7 +66,7 @@ End Sub
 ```
 (={ e4\*bahttext })
 ```
-- Date of today
+- Assign the invoive issuing date
 ```
 { TIME \@ "ว ดดดด ปปปป" }
 ```
