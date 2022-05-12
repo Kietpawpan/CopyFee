@@ -81,6 +81,3 @@ Private Sub CommandButton5_Click()
    Application.Quit
 End Sub
 ```
-## Programmer
-Monte Kietpwpan,
-Service Link Center, Ministry of Natural Resources and Environment
